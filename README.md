@@ -6,8 +6,11 @@ Showcase how to integrate stecil 4, storybook 8 with vite with a dev build / hot
 The problem is that the loader is only generated in the production build. This repo showcases how to get storybook and stencil working together with hot reloading.
 
 🚀 Hot reloading with stencil
+
 🚀 Developer mode stencil build support (much faster)
+
 🚀 Production build support
+
 
 ## Modify .storybook/main.ts
 add the following lines to let storybook track our files as well as to make vite watch for changes in our dist folder / inform storybook about the changes:
