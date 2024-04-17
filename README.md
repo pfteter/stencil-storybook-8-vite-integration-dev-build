@@ -8,11 +8,12 @@ The problem is that the loader is only generated in the production build. This r
 
 ## Modify preview.js
 add the line:
-``import '../dist/stencil-storybook/stencil-storybook.esm.js';``
+```import '../dist/stencil-storybook/stencil-storybook.esm.js';```
 
 to your preview.js in order to load the stencil webcomponens once storybook starts:
 
-``import '../dist/stencil-storybook/stencil-storybook.esm.js';  // ADD THIS LINE OF CODE !
+```js
+import '../dist/stencil-storybook/stencil-storybook.esm.js';  // ADD THIS LINE OF CODE !
 
 /** @type { import('@storybook/web-components').Preview } */
 const preview = {
@@ -26,7 +27,8 @@ const preview = {
   },
 };
 
-export default preview;``
+export default preview;
+```
 
 
 ## How to run it ?
