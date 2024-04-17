@@ -12,8 +12,7 @@ add the line:
 
 to your preview.js in order to load the stencil webcomponens once storybook starts:
 
-``
-import '../dist/stencil-storybook/stencil-storybook.esm.js';  // ADD THIS LINE OF CODE !
+``import '../dist/stencil-storybook/stencil-storybook.esm.js';  // ADD THIS LINE OF CODE !
 
 /** @type { import('@storybook/web-components').Preview } */
 const preview = {
